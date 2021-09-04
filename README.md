@@ -1,6 +1,6 @@
 # save-consumer-information
 
-- Decrypts data emitted from consumer cars com.saveconsumer.info.service and saves in requested format
+- Decrypts data emitted from consumer cars service and saves in requested format
 - Decrypts and updates the requested consumer object
 - Encrypts and sends back all the consumer data
 
