@@ -1,0 +1,17 @@
+service:
+  port: 8081
+
+spring:
+  application:
+    name: save-consumer-application
+
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: false
+
+  swagger-ui3:
+    enabled: true
+  cloud:
+    loadbalancer:
+      ribbon:
+        enable: false
